@@ -1,0 +1,16 @@
+public class P110_SumEven
+{
+    public static void main(String[] args)
+    {
+        int[] numbers = {10,15,22,31,40,53,60};
+        int sum = 0;
+        for(int i=0; i<numbers.length;i++)
+        {
+            if(numbers[i] % 2 == 0)
+            {
+                sum = sum + numbers[i];
+            }
+        }
+        System.out.println("Sum of even numbers: " + sum);
+    }
+}
