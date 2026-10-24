@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P10_Subtract
+public class P10_Substract
 {
     public static void main(String[] args)
     {
